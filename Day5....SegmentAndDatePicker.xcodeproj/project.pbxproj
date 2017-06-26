@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BBBCFC01EF39FD5006D19DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBCFBF1EF39FD5006D19DF /* main.m */; };
+		6BBBCFC31EF39FD5006D19DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBCFC21EF39FD5006D19DF /* AppDelegate.m */; };
+		6BBBCFCB1EF39FD5006D19DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BBBCFCA1EF39FD5006D19DF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BBBCFBB1EF39FD5006D19DF /* Day5....SegmentAndDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day5....SegmentAndDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBBCFBF1EF39FD5006D19DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BBBCFC11EF39FD5006D19DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BBBCFC21EF39FD5006D19DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BBBCFCA1EF39FD5006D19DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BBBCFCF1EF39FD5006D19DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BBBCFB81EF39FD5006D19DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BBBCFB21EF39FD4006D19DF = {
+			isa = PBXGroup;
+			children = (
+				6BBBCFBD1EF39FD5006D19DF /* Day5....SegmentAndDatePicker */,
+				6BBBCFBC1EF39FD5006D19DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BBBCFBC1EF39FD5006D19DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BBBCFBB1EF39FD5006D19DF /* Day5....SegmentAndDatePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BBBCFBD1EF39FD5006D19DF /* Day5....SegmentAndDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6BBBCFC11EF39FD5006D19DF /* AppDelegate.h */,
+				6BBBCFC21EF39FD5006D19DF /* AppDelegate.m */,
+				6BBBCFCA1EF39FD5006D19DF /* Assets.xcassets */,
+				6BBBCFCF1EF39FD5006D19DF /* Info.plist */,
+				6BBBCFBE1EF39FD5006D19DF /* Supporting Files */,
+			);
+			path = Day5....SegmentAndDatePicker;
+			sourceTree = "<group>";
+		};
+		6BBBCFBE1EF39FD5006D19DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BBBCFBF1EF39FD5006D19DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BBBCFBA1EF39FD5006D19DF /* Day5....SegmentAndDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BBBCFD21EF39FD5006D19DF /* Build configuration list for PBXNativeTarget "Day5....SegmentAndDatePicker" */;
+			buildPhases = (
+				6BBBCFB71EF39FD5006D19DF /* Sources */,
+				6BBBCFB81EF39FD5006D19DF /* Frameworks */,
+				6BBBCFB91EF39FD5006D19DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day5....SegmentAndDatePicker;
+			productName = Day5....SegmentAndDatePicker;
+			productReference = 6BBBCFBB1EF39FD5006D19DF /* Day5....SegmentAndDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BBBCFB31EF39FD4006D19DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Felix ITs";
+				TargetAttributes = {
+					6BBBCFBA1EF39FD5006D19DF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BBBCFB61EF39FD5006D19DF /* Build configuration list for PBXProject "Day5....SegmentAndDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BBBCFB21EF39FD4006D19DF;
+			productRefGroup = 6BBBCFBC1EF39FD5006D19DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BBBCFBA1EF39FD5006D19DF /* Day5....SegmentAndDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BBBCFB91EF39FD5006D19DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBBCFCB1EF39FD5006D19DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BBBCFB71EF39FD5006D19DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBBCFC31EF39FD5006D19DF /* AppDelegate.m in Sources */,
+				6BBBCFC01EF39FD5006D19DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6BBBCFD01EF39FD5006D19DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BBBCFD11EF39FD5006D19DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BBBCFD31EF39FD5006D19DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Day5....SegmentAndDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mandar.Day5----SegmentAndDatePicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BBBCFD41EF39FD5006D19DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Day5....SegmentAndDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mandar.Day5----SegmentAndDatePicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BBBCFB61EF39FD5006D19DF /* Build configuration list for PBXProject "Day5....SegmentAndDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBBCFD01EF39FD5006D19DF /* Debug */,
+				6BBBCFD11EF39FD5006D19DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BBBCFD21EF39FD5006D19DF /* Build configuration list for PBXNativeTarget "Day5....SegmentAndDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBBCFD31EF39FD5006D19DF /* Debug */,
+				6BBBCFD41EF39FD5006D19DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BBBCFB31EF39FD4006D19DF /* Project object */;
+}
